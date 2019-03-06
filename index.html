@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Button icon css -->
+    <title>Zeeslag</title>
+</head>
+<body>
+<div class="kaas"></div>
+
+<!-- Start het spel eerste pagina code -->
+
+<div id="firstpage" class="firstpage">
+    <div class="spelnaam">
+        <img class="imgspelnaam" src="media/spelnaam.png" alt="spelnaam">
+    </div>
+    <div class="centerButton">
+        <div class="butStyle" onclick="startGame()">Start het spel</div>
+    </div>
+
+    <div class="copyright">
+        <img class="logo" src="media/logo.png" alt="logo">
+        <footer>Copyright &copy; De Blije Dobbelsteen</footer>
+    </div>
+</div>
+
+<!-- Game begonnen --------------------------------------------------------------- -->
+
+    <!-- begin info popup--------------------------------------------------------- -->
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class="myBtn"><i class="fa fa-book"></i> Instructies</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Zeeslag instructies</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the Modal Bodyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>
+                <p>Some other text...</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- einde info popup------------------------------------------------------- -->
+
+<div id="multiSingleBut" class="multiSingleBut centerButton">
+    <div id="multiBut" class="multiplayer butStyle" onclick="multiplayer()">Multiplayer</div>
+    <div id="singleBut" class="singleplayer butStyle" onclick="singleplayer()">Singleplayer</div>
+</div>
+
+
+<!-- Singleplayer code---------------------------------------------- -->
+
+
+<div id="inputVelden" class="inputVelden">
+    <div>
+        <input type="text" name="FirstName" placeholder="" value="">
+    </div>
+</div>
+
+
+<!-- Einde singleplayer code--------------------------------------- -->
+
+<script src="js/javascript.js"></script>
+</body>
+</html>
