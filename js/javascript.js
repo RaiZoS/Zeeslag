@@ -43,7 +43,7 @@ function startGame(){
 
 function singleplayer(){
     document.getElementById("multiSingleBut").style.display = 'none';
-    document.getElementById("inputVelden").style.display = 'display'; //werkt nog niet
+    document.getElementById("inputVelden").style.display = 'flex';
 }
 
 
