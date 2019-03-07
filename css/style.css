@@ -51,15 +51,6 @@ body{
     font-size: 28px;
 }
 
-.kaas{
-    width: 10px;
-    height: 10px;
-    background-color: blue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
 .imgspelnaam{
     width: 100%;
 
@@ -194,7 +185,7 @@ body{
 .centerInput{
     text-align: center;
     padding: 12px 20px;
-    margin: -200px -200px;
+    margin: -100px -200px;
     border-radius: 5px;
     background-color: #f2f2f2;
 }
@@ -226,6 +217,37 @@ body{
     background-color: #444444;
 }
 
+.centerspelernaam{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display: none;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
 
+.spelernaam{
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin: -200px -200px;
+    -moz-box-shadow: 1px 1px 4px #1c1b18;
+    -webkit-box-shadow: 1px 1px 4px #1c1b18;
+    box-shadow: 1px 1px 4px #1c1b18;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 2px solid #333029;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #333029;
+}
 
 /* Einde Singleplayer code---------------------------------------------- */

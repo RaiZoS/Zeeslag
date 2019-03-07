@@ -46,6 +46,15 @@ function singleplayer(){
     document.getElementById("inputVelden").style.display = 'flex';
 }
 
+let spelersNaam = [];
+
+function inputSubmit(){
+    document.getElementById("centerspelernaam").style.display = 'block';
+    let spelersNaam = document.getElementById("username").value;
+    console.log(spelersNaam);
+    document.getElementById("spelernaam").innerHTML = "Welkom " + spelersNaam + "! Ben je klaar voor het gevecht?";
+    document.getElementById("inputVelden").style.display = 'none';
+}
 
 
 

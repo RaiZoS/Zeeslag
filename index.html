@@ -8,7 +8,7 @@
     <title>Zeeslag</title>
 </head>
 <body>
-<div class="kaas"></div>
+
 
 <!-- Start het spel eerste pagina code -->
 
@@ -90,15 +90,17 @@
 <div class="inputVelden" id="inputVelden">
     <div class="naamVak">
         <div class="centerInput">
-            <input class="inputNaam" type="text" name="FirstName" placeholder="Kies naam" value="">
-            <input class="inputSubmit" type="submit" value="Volgende">
+            <input class="inputNaam" id="username" type="text" name="FirstName" placeholder="Kies naam" value="">
+            <input class="inputSubmit" id="inputSubmit" type="submit" value="Volgende" onclick="inputSubmit()">
         </div>
     </div>
 </div>
 
+<div class="centerspelernaam" id="centerspelernaam">
+<div class="spelernaam" id="spelernaam"></div>
+</div>
 
 <!-- Einde singleplayer code--------------------------------------- -->
-
 <script src="js/javascript.js"></script>
 </body>
 </html>
