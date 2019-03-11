@@ -232,9 +232,8 @@ body{
 
 .spelernaam{
     text-align: center;
-    cursor: pointer;
     padding: 12px 20px;
-    margin: -200px -200px;
+    margin: -200px -300px;
     -moz-box-shadow: 1px 1px 4px #1c1b18;
     -webkit-box-shadow: 1px 1px 4px #1c1b18;
     box-shadow: 1px 1px 4px #1c1b18;
