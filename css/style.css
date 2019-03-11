@@ -100,6 +100,7 @@ body{
     /* Modal Content */
     .modal-content {
         position: relative;
+        top:-100px;
         background-color: #fefefe;
         margin: auto;
         padding: 0;
@@ -111,7 +112,36 @@ body{
         animation-name: animatetop;
         animation-duration: 0.4s
     }
-
+    .Vliegdekmoederschip{
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+    }
+    .Slagship{
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+    }
+    .Kruiser{
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+    }
+    .Onderzeeër{
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+    }
+    .Mijnenveger{
+        position: relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:300px;
+    }
     /* Add Animation */
     @-webkit-keyframes animatetop {
         from {top:-300px; opacity:0}

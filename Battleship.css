@@ -25,7 +25,13 @@ body{
 
 .GameRate{
     position: relative;
-    top:130%;
+    top:30%;
+}
+@media screen and (max-width:600px ) {
+    .GameRate {
+        position: relative;
+        top:60%;
+    }
 }
 .rating {
     border: none;
@@ -68,6 +74,7 @@ body{
     width:300px;
     height:100px;
     left:-154px;
+    top:650px;
 }
 #userCmnt{
 
@@ -78,6 +85,7 @@ body{
     .wrapper{
         position: relative;
         width:0%;
+        top:375px;
     }
     #userCmnt{
         margin:auto;
@@ -88,7 +96,7 @@ body{
 .container{
     display:flex;
     flex-direction:column;
-    position:relativ;
+    position:relative;
 
 }
 .row{
