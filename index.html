@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Button icon css -->
     <title>Zeeslag</title>
 </head>
@@ -17,7 +18,7 @@
         <img class="imgspelnaam" src="media/spelnaam.png" alt="spelnaam">
     </div>
     <div class="centerButton">
-        <div class="butStyle" onclick="startGame()">Start het spel</div>
+        <div class="butStyle" onclick="startSpel()">Start het spel</div>
     </div>
 
     <div class="copyright">
@@ -78,7 +79,10 @@
     <!-- einde info popup------------------------------------------------------- -->
 
 <div id="multiSingleBut" class="multiSingleBut centerButton">
-    <div id="multiBut" class="multiplayer butStyle" onclick="multiplayer()">Multiplayer</div>
+    <div id="multiBut" class="multiplayer butStyle popup" onclick="multiplayer()">Multiplayer
+        <span class="popuptext" id="myPopup">Multiplayer werkt nog niet!</span>
+    </div>
+
     <div id="singleBut" class="singleplayer butStyle" onclick="singleplayer()">Singleplayer</div>
 </div>
 
@@ -97,6 +101,37 @@
 
 <div class="centerspelernaam" id="centerspelernaam">
 <div class="spelernaam" id="spelernaam"></div>
+</div>
+
+
+
+
+
+
+<div class="Board" id="board">
+    <div id="main">
+        <div class="board">
+            <div class="displays">
+                <div class="top">
+                    <ul class="grid"></ul>
+                </div>
+                <div class="bottom">
+                    <ul class="grid"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="topPanel">
+                <div class="layout">
+                    <div class='buttons one'>One-Player</div>
+                    <div class='buttons multi'>Two-Player</div>
+                    <div class='buttons options'>Options</div>
+                </div>
+            </div>
+            <div class='console'>
+                <span class='text'></span></div>
+        </div>
+    </div>
 </div>
 
 <!-- Einde singleplayer code--------------------------------------- -->
